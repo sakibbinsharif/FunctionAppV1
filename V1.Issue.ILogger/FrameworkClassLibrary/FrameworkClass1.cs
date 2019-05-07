@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using System;
 
+
 namespace FrameworkClassLibrary
 {
     public class FrameworkClass1

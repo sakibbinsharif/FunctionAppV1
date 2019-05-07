@@ -20,9 +20,8 @@ namespace FunctionAppV1
             log.LogDebug($"{System.DateTime.Now} Debug test");
             log.LogTrace($"{System.DateTime.Now} Trace test");
 
-//            ClassLibrary1.Class1 class1 = new ClassLibrary1.Class1(log);
-//            class1.Run();
 
+            var obj = new FrameworkClassLibrary.FrameworkClass1(log);
             return req.CreateResponse(HttpStatusCode.OK, "Hello ");
         }
     }
