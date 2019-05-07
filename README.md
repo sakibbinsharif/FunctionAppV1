@@ -1,0 +1,1 @@
+# FunctionAppV1-Issue-ILogger
